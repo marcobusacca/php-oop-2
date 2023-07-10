@@ -1,5 +1,5 @@
 <?php
-    class Cibo extends Articoli {
+    class Cibo extends Prodotti {
         // PROPRIETA
         private $netWeight;
         private $ingredients;

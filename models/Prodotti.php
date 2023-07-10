@@ -1,5 +1,5 @@
 <?php
-    class Articoli {
+    class Prodotti {
         // PROPRIETA
         public $image;
         public $title;

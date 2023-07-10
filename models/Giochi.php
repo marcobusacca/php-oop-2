@@ -1,5 +1,5 @@
 <?php
-    class Giochi extends Articoli {
+    class Giochi extends Prodotti {
         // PROPRIETA
         public $features;
         private $sizes;

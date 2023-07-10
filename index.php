@@ -1,6 +1,6 @@
 <?php
 
-    require_once __DIR__."/models/Articoli.php";
+    require_once __DIR__."/models/Prodotti.php";
     require_once __DIR__."/models/Cibo.php";
     require_once __DIR__."/models/Accessori.php";
     require_once __DIR__."/models/Giochi.php";

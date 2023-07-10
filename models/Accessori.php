@@ -1,5 +1,5 @@
 <?php
-    class Accessori extends Articoli {
+    class Accessori extends Prodotti {
         // PROPRIETA
         public $material;
         private $sizes;
