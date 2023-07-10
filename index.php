@@ -37,8 +37,18 @@
     $accessorio2->setPrice(2.29);
     $accessorio1->setSizes("M: L 83 x P 67 x H 153 cm");
 
-    var_dump($accessorio1);
-    var_dump($accessorio2);
+    // CREO LE ISTANZE DELLA SOTTO-CLASSE "GIOCHI"
+    $gioco1 = new Giochi ("https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg", "Kong Classic", "Cane", "Galleggia e rimbalza");
+    $gioco2 = new Giochi ("https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg", "Topini di peluche Trixie", "Gatto", "Morbido con codina in corda");
+
+    // ASSEGNAZIONI VALORI PROPRIETA ALLE ISTANZE DELLA SOTTO-CLASSE "GIOCHI"
+    $gioco1->setPrice(13.49);
+    $gioco2->setPrice(4.99);
+    $gioco1->setSizes("8,5 cm x 10 cm");
+    $gioco2->setSizes("8,5 cm x 10 cm");
+
+    var_dump($gioco1);
+    var_dump($gioco2);
 ?>
 
 <!DOCTYPE html>
