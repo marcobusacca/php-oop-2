@@ -1,10 +1,37 @@
 <?php
-
+    // IMPORTO I FILE PHP DELLE CLASSI
     require_once __DIR__."/models/Prodotti.php";
     require_once __DIR__."/models/Cibo.php";
     require_once __DIR__."/models/Accessori.php";
     require_once __DIR__."/models/Giochi.php";
 
+    // CREO LE ISTANZE DELLA SOTTO-CLASSE "CIBO"
+    $cibo1 = new Cibo("https://m.media-amazon.com/images/I/71fwkZg9m6L.jpg", "Royal Canin Mini Adult", "Cane");
+    $cibo2 = new Cibo("https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpg", "Almo Nature Holistic Maintenance Medium Large Tonno e Riso", "Cane");
+    $cibo3 = new Cibo("https://arcaplanet.vtexassets.com/arquivos/ids/245336/almo-daily-menu-cat-400-gr-vitello.jpg", "Almo Nature Cat Daily Lattina", "Gatto");
+    $cibo4 = new Cibo("https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg", "Mangime per Pesci Guppy in Fiocchi", "Pesce");
+
+    // ASSEGNAZIONI VALORI PROPRIETA ALLE ISTANZE DELLA SOTTO-CLASSE "CIBO"
+    $cibo1->setPrice(43.99);
+    $cibo1->setNetWeight(545);
+    $cibo1->setIngredients(["Prosciutto", "Riso"]);
+
+    $cibo2->setPrice(44.99);
+    $cibo2->setNetWeight(600);
+    $cibo2->setIngredients(["Manzo", "Cereali"]);
+
+    $cibo3->setPrice(34.99);
+    $cibo3->setNetWeight(400);
+    $cibo3->setIngredients(["Tonno", "Pollo", "Prosciutto"]);
+
+    $cibo4->setPrice(2.95);
+    $cibo4->setNetWeight(30);
+    $cibo4->setIngredients(["Pesci e sottoprodotti di pesci", "Cereali", "Lieviti", "Alghe"]);
+
+    var_dump($cibo1);
+    var_dump($cibo2);
+    var_dump($cibo3);
+    var_dump($cibo4);
 ?>
 
 <!DOCTYPE html>
