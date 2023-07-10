@@ -45,7 +45,7 @@
     // ASSEGNAZIONI VALORI PROPRIETA ALLE ISTANZE DELLA SOTTO-CLASSE "GIOCHI"
     $gioco1->setPrice(13.49);
     $gioco2->setPrice(4.99);
-    
+
     $gioco1->setSizes("8,5 cm x 10 cm");
     $gioco2->setSizes("8,5 cm x 10 cm");
 ?>
@@ -61,5 +61,29 @@
         <title>php-oop-2</title>
     </head>
     <body>
+        <!-- Main -->
+            <!-- Main Container -->
+            <div class="container my-5">
+                <!-- Main Title Row -->
+                <div class="row py-5">
+                    <!-- Main Title Col -->
+                    <div class="col-12 text-center">
+                        <!-- Main Title -->
+                        <h1>Boolshop</h1>
+                    </div>
+                </div>
+                <!-- Product Row -->
+                <div class="row py-5">
+                    <!-- Product Title Col -->
+                    <div class="col-12">
+                        <!-- Product Title -->
+                        <h3>I Nostri Prodotti</h3>
+                    </div>
+                    <!-- Product Col -->
+                    <div class="col-4">
+                    </div>
+                </div>
+            </div>
+        <!-- Fine Main -->
     </body>
 </html>
