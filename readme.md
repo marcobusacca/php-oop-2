@@ -25,7 +25,7 @@ Royal Canin Mini Adult
 
 ```
 
-[Royal Canin Mini Adult - Image](https://arcaplanet.vtexassets.com/arquivos/ids/243820/royal-canin-size-cane-mini-adult.jpg)
+[Royal Canin Mini Adult - Image](https://m.media-amazon.com/images/I/71fwkZg9m6L.jpg)
 
 
 ```
