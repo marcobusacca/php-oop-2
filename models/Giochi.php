@@ -1,16 +1,31 @@
 <?php
     class Giochi extends Articoli {
         // PROPRIETA
-        private $features;
+        public $features;
         private $sizes;
 
         // METODI
 
             // COSTRUTTORE
-            function __construct($image, $title, $category, $price, $features, $sizes){
-                parent::__construct($image, $title, $category, $price);
+            function __construct($image, $title, $category, $features){
+                parent::__construct($image, $title, $category);
                 $this->features = $features;
-                $this->sizes = $sizes;
+            }
+
+            // FUNZIONI
+            public function setSizes($sizes){
+
+                if (is_null($sizes) || $sizes === ""){
+
+                    $this->sizes = "ND";
+
+                } else{
+                    $this->sizes = $sizes;
+                }
+            }
+
+            public function getSizes(){
+                return $this->sizes;
             }
 
         // FINE METODI
