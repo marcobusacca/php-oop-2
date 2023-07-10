@@ -28,10 +28,17 @@
     $cibo4->setNetWeight(30);
     $cibo4->setIngredients(["Pesci e sottoprodotti di pesci", "Cereali", "Lieviti", "Alghe"]);
 
-    var_dump($cibo1);
-    var_dump($cibo2);
-    var_dump($cibo3);
-    var_dump($cibo4);
+    // CREO LE ISTANZE DELLA SOTTO-CLASSE "ACCESSORI"
+    $accessorio1 = new Accessori("https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg", "Voliera Wilma in Legno", "Uccello", "Legno");
+    $accessorio2 = new Accessori("https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg", "Cartucce Filtranti per Filtro EasyCrystal", "Pesce", "Materiale espanso");
+
+    // ASSEGNAZIONI VALORI PROPRIETA ALLE ISTANZE DELLA SOTTO-CLASSE "ACCESSORI"
+    $accessorio1->setPrice(184.99);
+    $accessorio2->setPrice(2.29);
+    $accessorio1->setSizes("M: L 83 x P 67 x H 153 cm");
+
+    var_dump($accessorio1);
+    var_dump($accessorio2);
 ?>
 
 <!DOCTYPE html>

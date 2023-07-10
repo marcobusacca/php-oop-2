@@ -10,12 +10,13 @@
             function __construct($image, $title, $category, $material){
                 parent::__construct($image, $title, $category);
                 $this->material = $material;
+                $this->sizes = "ND";
             }
 
             // FUNZIONI
             public function setSizes($sizes){
 
-                if (is_null($sizes) || $sizes === ""){
+                if ($sizes === ""){
 
                     $this->sizes = "ND";
 

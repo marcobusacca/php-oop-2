@@ -13,6 +13,7 @@
                 $this->image = $image;
                 $this->title = $title;
                 $this->category = $category;
+                $this->price = "ND";
             }
 
             // FUNZIONI

@@ -9,6 +9,8 @@
             // COSTRUTTORE
             function __construct($image, $title, $category){
                 parent::__construct($image, $title, $category);
+                $this->netWeight = "ND";
+                $this->ingredients = "ND";
             }
 
             // FUNZIONI
