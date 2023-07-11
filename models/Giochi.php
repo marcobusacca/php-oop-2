@@ -7,14 +7,14 @@
         // METODI
 
             // COSTRUTTORE
-            function __construct($image, $title, $category, $features){
+            function __construct(String $image, String $title, String $category, String $features){
                 parent::__construct($image, $title, $category);
                 $this->features = $features;
                 $this->sizes = "ND";
             }
 
             // FUNZIONI
-            public function setSizes($sizes){
+            public function setSizes(String $sizes){
 
                 if ($sizes === ""){
 

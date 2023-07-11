@@ -7,14 +7,14 @@
         // METODI
 
             // COSTRUTTORE
-            function __construct($image, $title, $category){
+            function __construct(String $image, String $title, String $category){
                 parent::__construct($image, $title, $category);
                 $this->netWeight = "ND";
                 $this->ingredients = "ND";
             }
 
             // FUNZIONI
-            public function setNetWeight($netWeight){
+            public function setNetWeight(Int $netWeight){
                 $this->netWeight = $netWeight."g";
             }
 
@@ -22,7 +22,7 @@
                 return $this->netWeight;
             }
 
-            public function setIngredients($ingredients){
+            public function setIngredients(Array $ingredients){
 
                 if (count($ingredients) === 1){
 

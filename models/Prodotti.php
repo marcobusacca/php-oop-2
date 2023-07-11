@@ -9,7 +9,7 @@
         // METODI
 
             // COSTRUTTORE
-            function __construct($image, $title, $category){
+            function __construct(String $image, String $title, String $category){
                 $this->image = $image;
                 $this->title = $title;
                 $this->category = $category;
@@ -17,7 +17,7 @@
             }
 
             // FUNZIONI
-            public function setPrice($price){
+            public function setPrice(Float $price){
                 $this->price = "€ ".$price;
             }
 
